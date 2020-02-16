@@ -1,0 +1,81 @@
+  //  .center {
+  //   top: 30%;
+  //   left: 50%;
+  //   width:30em;
+  //   height:18em;
+  //   margin-top: -9em; /*set to a negative number 1/2 of your height*/
+  //   margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  //   position:fixed;
+  //  }
+
+  //  .container{
+  //   height: 400px;
+  //   width: 400px;
+  //   border: 1px solid;
+  //   margin: auto;
+  //   overflow-y: auto;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: flex-end;
+  // }
+
+  .container-message{
+    border: 1px solid;
+  }
+
+  .resize-container{
+    padding: 0% 25%;
+  }
+  
+  .content-container{
+    height: 18em;
+    overflow-y: auto;
+  }
+
+  .p-1em{
+    padding: 1em;
+  }
+  
+  .item{
+    padding: 5px;
+    margin: 5px 0;
+    color: white;
+    padding: 1em;
+    width: 15em;
+  }
+  
+  .item:nth-child(2n + 1){
+    background-color: #3f51b5;
+    border-radius: 15px 15px 15px 1px;
+    float: left;
+  }
+  
+  .item:nth-child(2n){
+    border-radius: 15px 15px 1px 15px;
+    background-color: #999;
+    float: right;
+
+  }
+
+  .btn-send{
+    /* --padding-start: 0.5em; */
+    /* --padding-end: 1em; */
+    background: #588cc6;
+    border-radius: 5em;
+    width: 40px;
+    height: 40px;
+    margin: 0.3em 0em;
+    font-size: x-small;
+    padding: 0em 0em 0em 0em;
+}
+
+.submitMessage {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  padding: 0 !important;
+}
+  
